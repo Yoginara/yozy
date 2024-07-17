@@ -3,13 +3,14 @@ package module
 import (
 	"context"
 	"fmt"
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
 	logger "hanacore/utils/Logger"
 	"hanacore/utils/console"
 	"math/rand"
 	"strings"
 	"time"
+
+	"github.com/go-telegram/bot"
+	"github.com/go-telegram/bot/models"
 )
 
 type StartModule struct{}
@@ -37,7 +38,7 @@ func init() {
 
 func getRandomMessage() string {
 	messages := []string{
-		"Hello there! I am Hana",
+		"Hello there! I am Yozy",
 		"G'day mate! What's up?",
 		"Aye, howdy?",
 		"Greetings!",

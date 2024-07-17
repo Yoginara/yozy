@@ -28,7 +28,7 @@ func (m *AboutModule) Handle(ctx context.Context, b *bot.Bot, update *models.Upd
 
 		b.SendMessage(ctx, &bot.SendMessageParams{
 			ChatID:      update.Message.Chat.ID,
-			Text:        "Hana is a Telegram Bot designed to be modular and easy to develop. Check out my source code here!",
+			Text:        "Yozy is a Telegram Bot designed to be modular and easy to develop. Check out my source code here!",
 			ReplyMarkup: kb,
 		})
 		console.ShowLog(moduleName, senderID)
